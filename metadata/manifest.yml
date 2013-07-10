@@ -56,5 +56,5 @@ Endpoints:
     Mappings:
       - Frontend:      "/endpoint2"
         Backend:       ""
-        Options:       { websocket: true }
+        Options:       { }
 Source-Url: https://github.com/Filirom1/openshift-nodejs-simple/archive/master.zip
