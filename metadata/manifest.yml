@@ -49,4 +49,12 @@ Endpoints:
       - Frontend:      ""
         Backend:       ""
         Options:       { websocket: true }
+  - Private-IP-Name:   IP
+    Private-Port-Name: PORT2
+    Private-Port:      8090
+    Public-Port-Name:  PROXY_PORT2
+    Mappings:
+      - Frontend:      "/endpoint2"
+        Backend:       ""
+        Options:       { websocket: true }
 Source-Url: https://github.com/Filirom1/openshift-nodejs-simple/archive/master.zip
