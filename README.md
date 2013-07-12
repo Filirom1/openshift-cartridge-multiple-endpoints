@@ -2,7 +2,7 @@
 
 Use with http://cartreflect-claytondev.rhcloud.com/reflect?github=Filirom1/openshift-cartridge-multiple-endpoints
 
-If your application is listening 2 different ports, here is a [nodejs example](https://github.com/Filirom1/openshift-cartridge-multiple-endpoints/blob/master/template/server.js) : 
+If your application is listening on 2 different ports, here is a [nodejs example](https://github.com/Filirom1/openshift-cartridge-multiple-endpoints/blob/master/template/server.js) : 
 
     var http = require('http');
     
